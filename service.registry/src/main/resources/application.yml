@@ -1,0 +1,12 @@
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+server:
+  port: 8761
+
+
+# This eureka:client: register-with-eureka: true means this service registry service will
+#  register it self to the eureka dicovery server
